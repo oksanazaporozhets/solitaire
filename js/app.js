@@ -52,7 +52,7 @@ function addDradAndDropListener(card) {
             var dropabbleObject = findDroppable(e, card);
 
             function moveCard() {
-                if (parentElement.id = "stack-open-placeholder") {
+                if (parentElement.id === "stack-open-placeholder") {
                     game.deckWithOpenCard.removeCard(card.properties.suit, card.properties.priority);
                 }
                 if (dropabbleObject.element.id.substring(0, 4) === "home") {
