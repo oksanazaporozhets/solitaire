@@ -1,0 +1,157 @@
+.card-size-mixin {
+  border-radius: 7px;
+  min-height: 183px;
+  width: 130px;
+}
+html,
+body {
+  width: 100%;
+  height: 100%;
+  background: #064f21;
+  background: -moz-linear-gradient(left, #064f21 0%, #099135 50%, #064f21 100%);
+  background: -webkit-linear-gradient(left, #064f21 0%, #099135 50%, #064f21 100%);
+  background: linear-gradient(to right, #064f21 0%, #099135 50%, #064f21 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#064f21', endColorstr='#064f21', GradientType=1);
+}
+.game-block .card-placeholder {
+  border-radius: 7px;
+  min-height: 183px;
+  width: 130px;
+  position: absolute;
+  border: 1px solid #aaa;
+  display: inline-block;
+  float: left;
+  margin: 0px 15px 10px 15px;
+  background: #0aa43d;
+}
+.game-block #stack-homes-holders > div {
+  border-radius: 7px;
+  min-height: 183px;
+  width: 130px;
+  position: absolute;
+  border: 1px solid #aaa;
+  display: inline-block;
+  float: left;
+  margin: 0px 15px 10px 15px;
+  background: #0aa43d;
+  top: 40px;
+}
+.game-block #stack-homes-holders > div:first-child {
+  left: 0px;
+}
+.game-block #stack-homes-holders > div:nth-child(2) {
+  left: 170px;
+}
+.game-block #stack-homes-holders > div:nth-child(3) {
+  left: 510px;
+}
+.game-block #stack-homes-holders > div:nth-child(4) {
+  left: 680px;
+}
+.game-block #stack-homes-holders > div:nth-child(5) {
+  left: 850px;
+}
+.game-block #stack-homes-holders > div:nth-child(6) {
+  left: 1020px;
+}
+.game-block .stack-close-placeholder,
+.game-block .stack-open-placeholder,
+.game-block .home-placeholder {
+  border-radius: 7px;
+  min-height: 183px;
+  width: 130px;
+  top: 20px;
+  position: absolute;
+}
+.game-block .home-placeholder {
+  background: #eee;
+  border-radius: 7px;
+  min-height: 183px;
+  width: 130px;
+}
+.game-block .set-placeholder {
+  border-radius: 7px;
+  min-height: 183px;
+  width: 130px;
+  position: absolute;
+  border: 1px solid #aaa;
+  display: inline-block;
+  float: left;
+  margin: 0px 15px 10px 15px;
+  background: #0aa43d;
+  top: 260px;
+}
+.game-block .set-placeholder:first-child {
+  left: 0px;
+}
+.game-block .set-placeholder:nth-child(2) {
+  left: 170px;
+}
+.game-block .set-placeholder:nth-child(3) {
+  left: 340px;
+}
+.game-block .set-placeholder:nth-child(4) {
+  left: 510px;
+}
+.game-block .set-placeholder:nth-child(5) {
+  left: 680px;
+}
+.game-block .set-placeholder:nth-child(6) {
+  left: 850px;
+}
+.game-block .set-placeholder:nth-child(7) {
+  left: 1020px;
+}
+.game-block .set-placeholder .card:first-child {
+  top: 0px;
+}
+.game-block .set-placeholder .card:nth-child(2) {
+  top: 40px;
+}
+.game-block .set-placeholder .card:nth-child(3) {
+  top: 80px;
+}
+.game-block .set-placeholder .card:nth-child(4) {
+  top: 120px;
+}
+.game-block .set-placeholder .card:nth-child(5) {
+  top: 160px;
+}
+.game-block .set-placeholder .card:nth-child(6) {
+  top: 200px;
+}
+.game-block .set-placeholder .card:nth-child(7) {
+  top: 240px;
+}
+.game-block .set-placeholder .card:nth-child(8) {
+  top: 280px;
+}
+.game-block .set-placeholder .card:nth-child(10) {
+  top: 320px;
+}
+.game-block .set-placeholder .card:nth-child(11) {
+  top: 360px;
+}
+.game-block .set-placeholder .card:nth-child(12) {
+  top: 400px;
+}
+.game-block .set-placeholder .card:nth-child(13) {
+  top: 440px;
+}
+.game-block .set-placeholder .card:nth-child(14) {
+  top: 440px;
+}
+.game-block .stack-open-placeholder {
+  left: 170px;
+}
+.card {
+  border-radius: 7px;
+  min-height: 183px;
+  width: 130px;
+  border: 1px solid #aaa;
+  background: url('../img/card_images.png');
+  position: absolute;
+}
+.card.back {
+  background-position: -1816px -2px !important;
+}
